@@ -38,7 +38,7 @@ div {
 }
 
 .projects-card a p {
-    background-color: #78c9ba;
+    background-color: rgb(121, 226, 156);
     margin-top: -5px;
     margin-bottom: 0;
     padding: 10px;
@@ -139,7 +139,7 @@ nav ul li {
 }
 
 .head {
-    margin: 200px 120px 0 120px;
+    margin: 200px 100px 0 100px;
     background-color: #73a88f;
 
 }
