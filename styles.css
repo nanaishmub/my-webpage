@@ -1,9 +1,29 @@
-@media screen and (min-width: 481px) {
+@media (min-width: 360px) and (max-width: ) {
     main {
         width: 50%;
         flex-wrap: wrap;
     }
-}  
+
+    #home-page {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    #home-page {
+      background-size: contain;
+      height: auto;
+    }
+  }
+  
+  /* Styles for screens larger than 768px */
+  @media (min-width: 768px) {
+    #home-page {
+      background-size: cover;
+      height: 760px;
+    }
+  }
+  
 
 body {
     text-align: center;
